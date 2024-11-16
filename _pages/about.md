@@ -8,8 +8,8 @@ redirect_from:
   - /about.html
 ---
 
-Cheng Jung is currently pursuing his Master's degree in Cybersecurity at the Georgia Institute of Technology.
+I am a passionate software engineer with over 6 years of experience building scalable backend systems and optimizing performance for high-traffic applications. My expertise spans Python, Go, Java, C++, and JavaScript, and I have a strong track record of developing microservices, payment gateways, and eCommerce platforms that have driven significant revenue growth and efficiency improvements.
 
-As an enthusiastic software engineer, he is deeply interested in Distributed Systems, Web3, Privacy, and Security. he earned his Bachelor's degree in Computer Science and Information Technology at National Taiwan University and gained four years of professional experience as a Software Engineer. During this time, he expanded my domain knowledge in fintech and ecommerce.
+Beyond my professional work, I have undertaken diverse projects showcasing my skills in areas like blockchain, cybersecurity, distributed systems, and database implementation. I thrive on solving complex problems and am constantly expanding my knowledge, as evidenced by my completion of advanced courses from institutions like Georgia Tech and MIT.
 
-His expertise lies in backend development, where he has designed several production finance systems. Additionally, he has experience in frontend and mobile development. he has utilized modern languages and frameworks such as Go and Python to design medium to large-scale distributed systems and microservices.
+As a lifelong learner and active contributor to the developer community, I am always eager to take on new challenges and share my knowledge with others. If you're looking for a dedicated and versatile software engineer with a blend of backend development, cybersecurity, and distributed systems skills, I would love to connect and discuss how I can contribute to your projects.

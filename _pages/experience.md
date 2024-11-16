@@ -9,76 +9,65 @@ redirect_from:
 
 {% include base_path %}
 
-[Download cv pdf](https://drive.google.com/file/d/1d8Qy257KPlXZw4Bt88CDXOl7UqR33BQo/view?usp=drive_link)
+<!-- [Download cv pdf](https://drive.google.com/file/d/1d8Qy257KPlXZw4Bt88CDXOl7UqR33BQo/view?usp=drive_link) -->
 
-<span style="color:navy">Education</span>
+<span style="color:black">Experience</span>
 ======
+### Software Engineer Intern
+**Snowflake**
+May 2024 -- August 2024 | Bellevue, WA
 
-* M.S. in Cybersecurity, Georgia Institute of Technology, 2023 - 2025 (Expected)
-* B.S. in Computer Science, National Taiwan University, 2013 - 2017
+- Built a SCIM Listing API in **Java** with support for pagination and filtering (RFC 7644), strengthening cloud-based IAM through Role-Based Access Control (RBAC), improving identity management for 50+ business partners.
+- Designed a regression test framework for SCIM APIs with **Python** and **Pytest**, achieving 100% coverage and ensuring system reliability.
 
-<span style="color:navy">Experience</span>
-======
+### Software Engineer II
+**Carousell**
+March 2022 -- December 2022 | Taipei, Taiwan
 
-## Caoursell
-Backend Engineer, Taipei, Mar. 2022 - Dec. 2022
+- Developed Recommerce microservices in **Go** for Gateway, Payment, Order, Shipping, and Listing, enabling new business strategy in Malaysia and contributing to a 20% revenue increase.
+- Developed and optimized Stripe-based Payment service in **Go** for automated settlement and reconciliation, reducing manual intervention by 30%, and used ElasticSearch for order tracking and BigQuery for log analysis, resolving payment inconsistencies.
+- Developed a Warranty service in **Go**, **gRPC**, and **PostgreSQL** using Domain-Driven Design, supporting dynamic pricing, plan configuration, and redemptions, boosting warranty subscriptions by 10%.
+- Optimized a Server-Driven UI framework in **Go** by conducting A/B testing, implementing parallel and conditional data fetching, reducing response time by 30%.
+- Initiated and led documentation improvements and developed Slackbot-powered internal tools, cutting customer issue resolution time by 50%.
 
-* Developed and implemented a warranty service capable of dynamically calculating warranty fees based on product specifications and duration. The system enables clients to easily claim their warranties, enhancing the overall user experience. ○ Lead the optimization of Listing Service by authoring RFC and refactoring Server Driven UI components with conditional fetching, and A/B testing, reduced 30% page loading time.
-* Developed Checkout microservices, including Listing, Order, Payment, Shipping, Warranty and Accounting.
-* Designed and implemented internal admin tools leveraging a Slack bot framework. Developed custom commands to efficiently manage orders and generate coupons, enhancing 50% the resolution speed of customer service issues.
-* Collaborated with global teams from Singapore, Malaysia, India and Taiwan.
-* Tech stacks: Go, gRPC, PostgreSQL, GCP, GKE, BigQuery, Grafana, Sentry, Docker
+### Software Engineer L3
+**Houzz**
+February 2021 -- August 2021 | Taipei, Taiwan
 
-## Houzz
-Fullstack Engineer, Taipei, Feb. 2021 - Sep. 2021
+- Enhanced Checkout system by integrating Apple Pay with Braintree using **PHP**, **Thrift**, **GraphQL** and **React**.
+- Developed E2E test framework in **JavaScript** and **Cypress** to monitor service health and page load times. Set up Jenkins pipelines for real-time outage alerts via Slack and PagerDuty, reducing incident response time by 50%.
+- Migrated 30+ dashboards from TSDB to Prometheus on **Grafana**, enhancing metric visualization and monitoring.
 
-* Developed ApplePay and integrated into the Checkout Service.
-* Developed automation scripts to synchronize daily order, buyer, and seller data for the Data Analysis team. Implemented Cypress E2E testing pipeline on Jenkins to detect realtime production outages to ensured application stability by monitoring and verifying functionality.
-* Collaborated with global teams from the United States and Taiwan.
-* Tech stacks: PHP, Thrift, GraphQL, ReactJS, MySQL, AWS, Docker, Grafana, Prometheus, Kubernetes.
+### Backend Engineer
+**Xtars Live**
+February 2020 -- February 2021 | Taipei, Taiwan
 
-## Xtars
-Backend Engineer, Taipei, Feb. 2020 - Feb. 2021
+- Designed a login system in **Python, Flask** with secure session management, supporting Apple, LINE and Facebook sign-ins via **OAuth 2.0** and **OIDC**.
+- Redesigned the accounting system using **Python** and **MySQL** with database normalization and algorithm improvement to calculate streaming time and earnings, delivering 100% accurate daily and monthly reports.
+- Designed a **Redis** caching solution for a real-time gift leaderboard reducing update latency by 40%.
 
-* Led the accounting system’s rearchitecture, normalizing the database, and delivering precise revenue calculations. Designed and implemented a real-time gifting leaderboard for live streaming, reducing latency by 40%.
-* Revamped the login system by introducing third-party integration (e.g., Apple and LINE login) and ensuring backward compatibility with the legacy system.
-* Tech stacks: Python, Flask, MySQL, GCP, Docker.
+### Python Engineer
+**Jkopay**
+May 2018 -- December 2019 | Taipei, Taiwan
 
-## Jkopay
-Fullstack Engineer, Taipei, May. 2018 - Dec. 2019
+- Developed an eCommerce platform using **Python, Django**, and **React** for 50+ charities, processing 1000+ orders and TWD $1M+ monthly.
+- Developed a Billing platform in **Django** integrated with partners' APIs, enabled real-time payment syncing, and automated daily financial statements in Excel, increasing MAU by 30% and managing TWD $10M+ in monthly transactions.
+- Optimized payment performance and reliability by leveraging **Redis** and **Kafka** for asynchronous processing, resulting in a 3x increase in system throughput and a 99.99% transaction success rate for over 30,000 daily transactions.
+- Designed a **JWT**-based Identity Provider (IdP) in **Django** to replace legacy authentication, reducing database queries by 90% and improving authentication speed by 40%, boosting security and scalability.
 
-* Designed a mobile phone payment e-commerce platform for charity, partnering with more than 50 charities and successfully raising over NTD 150M in donations within two years, with minimal downtime.
-* Designed a JWT (JSON Web Token) service to enhance authentication, and authorization for internal services.
-* Designed a fee payment application platform for various utilities (e.g. water bills, gas bills etc.) optimizing payment processes.
-* Tech stacks: Python, Django, MySQL, React, Redux, Ansible, Vagrant, Jenkins
 
-## Machine Discovery and Social Network Mining Lab, National Taiwan University
-Undergraduate Research Assistant, 2016 - 2017, Advisor: Shou-De, Lin
-
-* Research on privacy-preserving and security aspects in Machine Learning, focusing on Recommender, employing distributed training methodologies.
-
-## Network Security Lab, National Taiwan University
-Undergraduate Research Assistant, 2015 - 2016, Advisor: Hsu-Chun, Hsiao
-
-*Studying and sharing papers related to network security.
-*Research possible attacks and defenses on SDN data plane.
-
-<span style="color:navy">Contests</span>
-===
-* Google Kick Start 2021 Round D: Rank: 244th/11000
-
-<!-- <span style="color:navy">Pulications</span>
+<!-- <span style="color:black">Pulications</span>
 ======
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul> -->
 
-<span style="color:navy">Languages</span>
+<!-- <span style="color:black">Languages</span>
 ===
 * Chinese: Native
 * English:  Professional Proficiency (TOEFL 102/120)
 * Japanese: N2
-
+ -->
 
 <!-- # Talks
 ======
