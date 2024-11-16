@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Research & Publications"
+title: ""
 permalink: /research/
 author_profile: true
 redirect_from:
@@ -14,7 +14,7 @@ redirect_from:
 
 {% include base_path %}
 
-## Research
+# Research
 
 ### Systems Software and Security Lab
 **Georgia Institute of Technology**
@@ -40,6 +40,7 @@ Advisor: Professor Hsu-Chun Hsiao
 - Studied and presented research papers related to network security, focusing on emerging threats and defensive techniques
 - Investigated potential attacks and defenses on Software-Defined Networking (SDN) data planes, contributing to the development of secure SDN architectures
 
+# Publications
 
 {% for post in site.publications reversed %}
   {% include archive-single.html %}
