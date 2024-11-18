@@ -36,7 +36,6 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./src/static/img");
   eleventyConfig.addPassthroughCopy("./src/static/css");
   eleventyConfig.addPassthroughCopy("./src/admin");
-  eleventyConfig.addPassthroughCopy(".nojekyll")
 
   // Copy favicon to route of /_site
   eleventyConfig.addPassthroughCopy("./src/favicon.ico");
