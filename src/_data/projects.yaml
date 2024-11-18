@@ -1,0 +1,62 @@
+categories:
+  - name: "Systems & Security"
+    projects:
+      - title: "Blockchain CVE Database"
+        description: "An automated tool to collect and verify exploits for smart contracts, facilitating systematic vulnerability management"
+        tech: ["Rust", "Ethereum", "Foundry", "Solidity"]
+        points:
+          - "Developed an automated tool to collect and verify smart contract exploits"
+          - "Facilitated systematic vulnerability management"
+        github: "#"
+        demo: "#"
+
+      - title: "JNI Fuzzing"
+        description: "A fuzzing tool for Android native libraries using reverse engineering and generative AI"
+        tech: ["Android", "Java", "Python", "OpenAI"]
+        points:
+          - "Designed and implemented a fuzzing tool for Android native libraries, leveraging reverse engineering with Jadx"
+          - "Automated harness generation using Generative AI with few-shot learning and prompt engineering"
+          - "Achieved over 10% success across 100 APKs"
+        github: "#"
+
+      - title: "BuzzDB"
+        description: "Implementation of core database components including buffer manager, B+-Tree, and query operators"
+        tech: ["C++17", "Database", "GPU", "CUDA"]
+        points:
+          - "Implemented database internals including 2Q buffer manager, B+-Tree, and query execution operators (scans and joins) using modern C++ techniques with RAII for safe resource management"
+          - "Implemented aggregation functions through parallel processing on GPU with CUDA, comparing performance between CPU and GPU processing"
+          - "Built efficient query operators with memory management and optimization strategies"
+        github: "#"
+
+  - name: "Distributed Systems"
+    projects:
+      - title: "Distributed Systems"
+        description: "Implementation of MIT 6.5840 distributed systems course projects"
+        tech: ["Go", "Raft", "MapReduce"]
+        points:
+          - "Developed a fault-tolerant MapReduce distributed data processing framework"
+          - "Implemented the Raft consensus algorithm for reliable data replication"
+          - "Built a Key-Value Store with leader election and replication"
+        github: "#"
+
+  - name: "Network & Infrastructure"
+    projects:
+      - title: "Mini-Internet"
+        description: "A network spanning over 50 Autonomous Systems with BGP and OSPF routing"
+        tech: ["FRRouting", "BGP", "OSPF", "Network Security"]
+        points:
+          - "Managed a Mini-Internet spanning over 50 Autonomous Systems"
+          - "Configured FRRouting with OSPF and BGP to ensure network stability and security"
+          - "Implemented detection and prevention measures for BGP hijacking"
+        github: "#"
+
+  - name: "Fullstack Development"
+    projects:
+      - title: "Investment Tracker"
+        description: "A Discord bot and PWA for portfolio tracking and real-time stock updates"
+        tech: ["Python", "TypeScript", "React", "Next.js", "PostgreSQL", "Docker"]
+        points:
+          - "Developed a Discord bot with Yahoo Finance API integration for real-time stock prices and earnings updates"
+          - "Built a Progressive Web App for portfolio tracking, monitoring buy/sell history and open positions"
+        github: "#"
+        demo: "#"

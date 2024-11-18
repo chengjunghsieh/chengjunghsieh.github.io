@@ -1,0 +1,34 @@
+education:
+  - school: "Georgia Institute of Technology"
+    degree: "MS in Cybersecurity"
+    gpa: "4.0"
+    startDate: "2023-08"
+    endDate: "2025-05"
+    current: true
+
+  - school: "National Taiwan University"
+    degree: "BS in Computer Science"
+    startDate: "2013-09"
+    endDate: "2017-06"
+    current: false
+
+interests:
+  - "Distributed Systems"
+  - "System Security"
+  - "Cloud Infrastructure"
+  - "Software Architecture"
+
+achievements:
+  - title: "NSA Codebreaker Challenge 2023"
+    description: "Completed 6 of 9 stages (Top 3% globally), focusing on network analysis, reverse engineering, and encryption vulnerabilities"
+
+  - title: "TKCTF 2023"
+    description: "Ranked 3rd out of 20 teams in a School CTF"
+
+  - title: "Google Kick Start 2021 (Session D)"
+    description: "Achieved a top 2% global rank (244/11,000+)"
+
+publications:
+  - title: "Securing Data Planes in Software-Defined-Networks"
+    venue: "IEEE NetSoft SecVirtNet Workshop"
+    year: "2016"

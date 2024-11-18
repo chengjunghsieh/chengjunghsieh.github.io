@@ -1,0 +1,29 @@
+---
+layout: page
+title: Professional Experience
+path: experience
+---
+
+<div class="max-w-4xl mx-auto">
+    {% for job in experience.items %}
+        <div class="bg-white rounded-lg border p-8 mb-8">
+            <div class="flex flex-col md:flex-row justify-between mb-4">
+                <div>
+                    <h2 class="text-2xl font-bold text-gray-800">{{ job.company }}</h2>
+                    <p class="text-lg text-gray-600">{{ job.title }}</p>
+                    <p class="text-gray-500">{{ job.location }}</p>
+                </div>
+                <div class="text-gray-500 mt-2 md:mt-0 md:text-right">
+                    {% set startMonth = job.startDate | date('MMMM yyyy') %}
+                    {% set endMonth = job.endDate | date('MMMM yyyy') %}
+                    {{ startMonth }} – {% if job.current %}Present{% else %}{{ endMonth }}{% endif %}
+                </div>
+            </div>
+            <ul class="list-disc list-outside ml-4 space-y-2 text-gray-700">
+                {% for detail in job.details %}
+                    <li>{{ detail }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+    {% endfor %}
+</div>

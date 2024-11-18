@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*Your Custom CSS Goes here*/
+
+h1 {
+  @apply text-4xl tracking-tighter mb-3 text-center lg:text-7xl;
+}
+
+h3 {
+  @apply text-2xl font-bold mb-3;
+}
+
+/* Syntax Highlighting*/
+
+body :not(pre) > code[class*="language-"],
+body pre[class*="language-"] {
+  @apply bg-gray-800;
+}
+
+@layer components {
+  .group:hover .group-hover\:translate-x-1 {
+      transform: translateX(0.25rem);
+  }
+}
+
+@layer components {
+  pre {
+      @apply p-4 bg-gray-50 rounded-lg overflow-x-auto;
+  }
+}

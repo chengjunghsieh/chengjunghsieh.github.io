@@ -1,0 +1,36 @@
+---
+layout: default
+title: Home
+path: home
+---
+<div class="container mx-auto lg:h-screen flex flex-col justify-center items-center">
+  <h1 class="text-5xl font-bold leading-tight mb-5">
+    <strong class="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">
+    {{ settings.name }}
+    </strong>
+  </h1>
+  <h2 class="text-2xl text-gray-700 mb-5">
+    {{ settings.title }}
+  </h2>
+  <p class="text-lg text-gray-600 mb-8 max-w-xl text-center">
+    {{ settings.description }}
+  </p>
+
+  <div class="grid md:grid-cols-2 gap-8 mt-8 w-full max-w-4xl">
+    {% for item in navigation.items %}
+      <div class="p-8 border rounded-lg hover:shadow-lg transition-shadow duration-200">
+        <h3 class="font-bold text-2xl mb-4">{{ item.text }}</h3>
+        <p class="text-gray-600 mb-4">{{ item.desc }}</p>
+        <a href="{{ item.url }}"
+           class="inline-flex items-center text-indigo-500 font-bold text-lg hover:text-blue-800 transition-colors group">
+            more details
+            <svg class="w-5 h-5 ml-2 transform group-hover:translate-x-1 transition-transform"
+                 fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+            </svg>
+        </a>
+      </div>
+    {% endfor %}
+  </div>
+</div>

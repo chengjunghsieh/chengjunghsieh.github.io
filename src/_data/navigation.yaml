@@ -1,0 +1,25 @@
+---
+items:
+  - text: About
+    url: /about
+    desc: "Education backgrounds, research interests, skills, and achievements in CTF and competitive programming contests."
+
+  - text: Experience
+    url: /experience
+    desc: "Work in fintech, e-commerce, and cloud security. Building APIs, reliable services, and distributed systems"
+
+  - text: Projects
+    url: /projects
+    desc: "Personal projects exploring blockchain security, distributed systems, and full-stack development"
+
+  - text: Publications
+    url: /publications
+    desc: "Research contributions in network security and software-defined networks"
+
+  # - text: Skills
+  #   url: /skills
+  #   desc: "Proficient in multiple programming languages including Python, Go, Java, and C++. Extensive experience with cloud platforms, containerization, and modern development tools. Strong background in security practices and system architecture."
+
+  # - text: Achievements
+  #   url: /achievements
+  #   desc: "Notable accomplishments including top 3% globally in NSA Codebreaker Challenge, successful participation in CTF competitions, and high ranking in Google Kick Start programming competition."

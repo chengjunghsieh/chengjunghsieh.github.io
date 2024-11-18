@@ -1,0 +1,16 @@
+items:
+  - title: "Securing Data Planes in Software-Defined-Networks"
+    authors: "Cheng-Jung Hsieh"
+    venue: "IEEE NetSoft SecVirtNet Workshop"
+    year: 2016
+    abstract: "This paper presents a comprehensive approach to securing data plane components in Software-Defined Networks (SDN). We propose novel security mechanisms for protecting network flows and ensuring the integrity of data plane operations."
+    keywords:
+      - "Software-Defined Networks"
+      - "Network Security"
+      - "Data Plane Security"
+      - "Network Architecture"
+    links:
+      - text: "IEEE"
+        url: "#"
+      - text: "PDF"
+        url: "#"

@@ -1,0 +1,57 @@
+items:
+  - company: "Snowflake"
+    title: "Software Engineer Intern"
+    location: "Bellevue, WA"
+    startDate: "2024-05"
+    endDate: "2024-08"
+    current: false
+    details:
+      - "Built a SCIM Listing API in Java with support for pagination and filtering (RFC 7644), strengthening cloud-based IAM through Role-Based Access Control (RBAC), improving identity management for 50+ business partners"
+      - "Designed a regression test framework for SCIM APIs with Python and Pytest, achieving 100% coverage and ensuring system reliability"
+
+  - company: "Carousell"
+    title: "Software Engineer II"
+    location: "Taipei, Taiwan"
+    startDate: "2022-03"
+    endDate: "2022-12"
+    current: false
+    details:
+      - "Developed Recommerce microservices in Go for Gateway, Payment, Order, Shipping, and Listing, enabling new business strategy in Malaysia and contributing to a 20% revenue increase"
+      - "Developed and optimized Stripe-based Payment service in Go for automated settlement and reconciliation, reducing manual intervention by 30%, and used ElasticSearch for order tracking and BigQuery for log analysis, resolving payment inconsistencies"
+      - "Developed a Warranty service in Go, gRPC, and PostgreSQL using Domain-Driven Design, supporting dynamic pricing, plan configuration, and redemptions, boosting warranty subscriptions by 10%"
+      - "Optimized a Server-Driven UI framework in Go by conducting A/B testing, implementing parallel and conditional data fetching, reducing response time by 30%"
+      - "Initiated and led documentation improvements and developed Slackbot-powered internal tools, cutting customer issue resolution time by 50%"
+
+  - company: "Houzz"
+    title: "Software Engineer L3"
+    location: "Taipei, Taiwan"
+    startDate: "2021-02"
+    endDate: "2021-08"
+    current: false
+    details:
+      - "Enhanced Checkout system by integrating Apple Pay with Braintree using PHP, Thrift, GraphQL and React"
+      - "Developed E2E test framework in JavaScript and Cypress to monitor service health and page load times. Set up Jenkins pipelines for real-time outage alerts via Slack and PagerDuty, reducing incident response time by 50%"
+      - "Migrated 30+ dashboards from TSDB to Prometheus on Grafana, enhancing metric visualization and monitoring"
+
+  - company: "Xtars Live"
+    title: "Backend Engineer"
+    location: "Taipei, Taiwan"
+    startDate: "2020-02"
+    endDate: "2021-02"
+    current: false
+    details:
+      - "Designed a login system in Python, Flask with secure session management, supporting Apple, LINE and Facebook sign-ins via OAuth 2.0 and OIDC"
+      - "Redesigned the accounting system using Python and MySQL with database normalization and algorithm improvement to calculate streaming time and earnings, delivering 100% accurate daily and monthly reports"
+      - "Designed a Redis caching solution for a real-time gift leaderboard reducing update latency by 40%"
+
+  - company: "Jkopay"
+    title: "Python Engineer"
+    location: "Taipei, Taiwan"
+    startDate: "2018-05"
+    endDate: "2019-12"
+    current: false
+    details:
+      - "Developed an eCommerce platform using Python, Django, and React for 50+ charities, processing 1000+ orders and TWD $1M+ monthly"
+      - "Developed a Billing platform in Django integrated with partners' APIs, enabled real-time payment syncing, and automated daily financial statements in Excel, increasing MAU by 30% and managing TWD $10M+ in monthly transactions"
+      - "Optimized payment performance and reliability by leveraging Redis and Kafka for asynchronous processing, resulting in a 3x increase in system throughput and a 99.99% transaction success rate for over 30,000 daily transactions"
+      - "Designed a JWT-based Identity Provider (IdP) in Django to replace legacy authentication, reducing database queries by 90% and improving authentication speed by 40%, boosting security and scalability"
