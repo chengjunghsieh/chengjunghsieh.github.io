@@ -2,18 +2,14 @@ name: Build and Deploy
 on:
   push:
     branches:
-      - main  # Set a branch name to trigger deployment
-  pull_request:
-    branches:
       - main
 
 jobs:
-  build:
+  build-and-deploy:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
 
       - name: Setup Node
         uses: actions/setup-node@v4
@@ -26,29 +22,20 @@ jobs:
           version: 8
           run_install: false
 
-      - name: Get pnpm store directory
-        shell: bash
-        run: |
-          echo "STORE_PATH=$(pnpm store path --silent)" >> $GITHUB_ENV
-
-      - uses: actions/cache@v3
-        name: Setup pnpm cache
-        with:
-          path: ${{ env.STORE_PATH }}
-          key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
-          restore-keys: |
-            ${{ runner.os }}-pnpm-store-
-
       - name: Install dependencies
         run: pnpm install
 
       - name: Build
-        run: pnpm run build
+        run: |
+          pnpm run build
+          touch _site/.nojekyll
 
-      - name: Deploy
+      # Popular action to deploy to GitHub Pages:
+      # Docs: https://github.com/peaceiris/actions-gh-pages
+      - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
-        if: github.ref == 'refs/heads/main'
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./_site
-          cname: chengjunghsieh.github.io  # Replace with your domain if needed
+          publish_dir: _site
+          # Remove when deploying to user page
+          publish_branch: gh-pages
